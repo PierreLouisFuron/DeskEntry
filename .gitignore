@@ -1,0 +1,8 @@
+# Ignore Python virtual environment
+.venv/
+venv/
+
+# Ignore all pycache folders and files
+**/__pycache__/
+
+.qt_for_python/
