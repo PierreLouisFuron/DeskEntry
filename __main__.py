@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QApplication, QMainWindow, QStackedWidget
 from PySide6.QtGui import QIcon
 from components.difEditor import DesktopIconFileEditor
 from components.difExplorer import DesktopIconFileExplorer
-from controlers.desktopIconFileParser import DesktopIconFileParser
+from controllers.desktopIconFileParser import DesktopIconFileParser
 
 LOCAL_ICON_FOLDER_PATH = os.path.expanduser('~') + '/.local/share/applications'
 GLOBAL_ICON_FOLDER_PATH = '/usr/share/applications'
