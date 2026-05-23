@@ -1,7 +1,7 @@
 
 import sys, os
 from PySide6.QtWidgets import QApplication, QMainWindow, QStackedWidget
-from PySide6.QtGui import QIcon, QGuiApplication, QScreen
+from PySide6.QtGui import QIcon
 from components.difEditor import DesktopIconFileEditor
 from components.difExplorer import DesktopIconFileExplorer
 from controlers.desktopIconFileParser import DesktopIconFileParser
@@ -12,7 +12,7 @@ GLOBAL_ICON_FOLDER_PATH = '/usr/share/applications'
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        self.setWindowTitle('Desktop Icon Editor')
+        self.setWindowTitle('DeskEntry')
         QIcon.setFallbackSearchPaths([
             '/usr/share/pixmaps/' ,
             '/snap/gnome-3-28-1804/161/usr/share/icons/' ,
